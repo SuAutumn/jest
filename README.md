@@ -1,2 +1,7 @@
-# jest
-The record of jest use skills
+#### something about work
+
+##### jest
+* jest mock function
+
+##### css
+* background
