@@ -1,0 +1,18 @@
+{
+  "name": "html-ast-demo",
+  "version": "0.0.1",
+  "description": "This is a demo for practise the HTML abstruct syntax tree",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "html",
+    "ast"
+  ],
+  "author": "zhangp",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "3.9.5"
+  }
+}
