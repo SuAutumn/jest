@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        .middle, .left, .right, .left1, .right1, .middle1 {
+            height: 300px;
+            float: left;
+        }
+        .left, .right, .left1, .right1 {
+            background-color: green;
+            width: 220px;
+        }
+        .middle {
+            background-color: hotpink;
+            width: 100%;
+        }
+        .left {
+            margin-left: -100%;
+        }
+        .right {
+            margin-left: -220px;
+        }
+        .middle .middle-content {
+            margin: 0 220px;
+            height: 100%;
+        }
+        .container1 {
+            padding: 0 220px;
+        }
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="middle">
+            <div class="middle-content">middle</div>
+        </div>
+        <div class="left">left</div>
+        <div class="right">right</div>
+    </div>
+    <div class="clear"></div>
+    <div class="container1">
+        <div class="left1" style="margin-left: -220px;">left</div>
+        <div class="middle1" style="width: 100%;">middle</div>
+        <div class="right1" style="margin-right: -220px;">right</div>
+    </div>
+</body>
+</html>
