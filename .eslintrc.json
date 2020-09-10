@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "extends": [
+    "eslint-config-standard",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "globals": {
+    "getApp": false,
+    "getCurrentPages": false,
+    "Page": false,
+    "Component": false,
+    "App": false,
+    "wx": false,
+    "Behavior": false
+  },
+  "rules": {
+    "no-multiple-empty-lines": [
+      2,
+      {
+        "max": 1
+      }
+    ],
+    "no-inline-comments": 2,
+    "lines-around-comment": [2, {
+      "beforeBlockComment": true,
+      "beforeLineComment": true
+    }]
+  }
+}

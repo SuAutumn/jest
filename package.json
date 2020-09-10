@@ -4,7 +4,11 @@
   "description": "This is a demo for practise the HTML abstruct syntax tree",
   "main": "index.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "gulp": "gulp",
+    "gulp:watch_scss": "gulp watch:scss2wxss",
+    "tsc:watch": "tsc --watch",
+    "stylelint": "stylelint --fix common.wxss"
   },
   "keywords": [
     "html",
@@ -13,6 +17,32 @@
   "author": "zhangp",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "3.9.5"
+    "typescript": "3.9.5",
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-rev": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "prettier": "^2.1.1",
+    "stylelint": "^13.7.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.18.0"
   }
 }
